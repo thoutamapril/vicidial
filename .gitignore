@@ -1,4 +1,1 @@
-.svn
-svn_to_git_commits
-svn_to_git_revision.txt
-svn_to_git_revisions.txt
+.svn/
