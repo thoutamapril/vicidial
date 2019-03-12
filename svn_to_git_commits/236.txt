@@ -1,0 +1,46 @@
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   LANG_www/agc_br/dbconnect.php
+#	modified:   LANG_www/agc_br/manager_send.php
+#	modified:   LANG_www/agc_br/vdc_db_query.php
+#	modified:   LANG_www/agc_br/vicidial.php
+#	modified:   LANG_www/agc_de/dbconnect.php
+#	modified:   LANG_www/agc_de/vdc_db_query.php
+#	modified:   LANG_www/agc_de/vicidial.php
+#	modified:   LANG_www/agc_el/dbconnect.php
+#	modified:   LANG_www/agc_el/vdc_db_query.php
+#	modified:   LANG_www/agc_el/vicidial.php
+#	modified:   LANG_www/agc_en/dbconnect.php
+#	modified:   LANG_www/agc_es/dbconnect.php
+#	modified:   LANG_www/agc_es/manager_send.php
+#	modified:   LANG_www/agc_es/vdc_db_query.php
+#	modified:   LANG_www/agc_es/vicidial.php
+#	modified:   LANG_www/agc_fr/dbconnect.php
+#	modified:   LANG_www/agc_fr/vdc_db_query.php
+#	modified:   LANG_www/agc_fr/vicidial.php
+#	modified:   LANG_www/agc_it/dbconnect.php
+#	modified:   LANG_www/agc_it/manager_send.php
+#	modified:   LANG_www/agc_it/vdc_db_query.php
+#	modified:   LANG_www/agc_it/vicidial.php
+#	modified:   LANG_www/agc_pl/dbconnect.php
+#	modified:   LANG_www/agc_pl/manager_send.php
+#	modified:   LANG_www/agc_pl/vdc_db_query.php
+#	modified:   LANG_www/agc_pl/vicidial.php
+#	modified:   LANG_www/agc_pt/dbconnect.php
+#	modified:   LANG_www/agc_pt/vdc_db_query.php
+#	modified:   LANG_www/agc_pt/vicidial.php
+#	modified:   docs/SCRATCH_INSTALL.txt
+#	modified:   translations/br_language.txt
+#	modified:   translations/de_language.txt
+#	modified:   translations/el_language.txt
+#	modified:   translations/es_language.txt
+#	modified:   translations/fr_language.txt
+#	modified:   translations/it_language.txt
+#	modified:   translations/pl_language.txt
+#	modified:   translations/pt_language.txt
+#	modified:   www/vicidial/AST_timeonVDADall.php
+#
+no changes added to commit (use "git add" and/or "git commit -a")

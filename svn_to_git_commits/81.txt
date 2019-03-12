@@ -1,0 +1,367 @@
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   INSTALL
+#	modified:   LANG_www/agc/active_list_refresh.php
+#	modified:   LANG_www/agc/astguiclient.php
+#	modified:   LANG_www/agc/call_log_display.php
+#	modified:   LANG_www/agc/conf_exten_check.php
+#	modified:   LANG_www/agc/dbconnect.php
+#	deleted:    LANG_www/agc/images/agc_live_call_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/agc_live_call_ON_pl.gif
+#	deleted:    LANG_www/agc/images/pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_hangupcustomer_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_hangupcustomer_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_parkcall_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_parkcall_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_pause_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_pause_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_resume_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_resume_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_startrecording_OFF_p.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_startrecording_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_startrecording_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_stoprecording_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_stoprecording_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_transferconf_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_transferconf_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_webform_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_LB_webform_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_XB_hotkeysactive_OFF_pl.gif
+#	deleted:    LANG_www/agc/images/vdc_XB_hotkeysactive_pl.gif
+#	modified:   LANG_www/agc/inbound_popup.php
+#	modified:   LANG_www/agc/live_exten_check.php
+#	modified:   LANG_www/agc/manager_send.php
+#	modified:   LANG_www/agc/park_calls_display.php
+#	modified:   LANG_www/agc/vdc_db_query.php
+#	modified:   LANG_www/agc/vicidial.php
+#	modified:   LANG_www/agc/voicemail_check.php
+#	modified:   LANG_www/agc_br/active_list_refresh.php
+#	modified:   LANG_www/agc_br/astguiclient.php
+#	modified:   LANG_www/agc_br/call_log_display.php
+#	modified:   LANG_www/agc_br/conf_exten_check.php
+#	modified:   LANG_www/agc_br/dbconnect.php
+#	modified:   LANG_www/agc_br/inbound_popup.php
+#	modified:   LANG_www/agc_br/live_exten_check.php
+#	modified:   LANG_www/agc_br/manager_send.php
+#	modified:   LANG_www/agc_br/park_calls_display.php
+#	modified:   LANG_www/agc_br/vdc_db_query.php
+#	modified:   LANG_www/agc_br/vicidial.php
+#	modified:   LANG_www/agc_br/voicemail_check.php
+#	modified:   LANG_www/agc_de/active_list_refresh.php
+#	modified:   LANG_www/agc_de/astguiclient.php
+#	modified:   LANG_www/agc_de/call_log_display.php
+#	modified:   LANG_www/agc_de/conf_exten_check.php
+#	modified:   LANG_www/agc_de/dbconnect.php
+#	modified:   LANG_www/agc_de/inbound_popup.php
+#	modified:   LANG_www/agc_de/live_exten_check.php
+#	modified:   LANG_www/agc_de/manager_send.php
+#	modified:   LANG_www/agc_de/park_calls_display.php
+#	modified:   LANG_www/agc_de/vdc_db_query.php
+#	modified:   LANG_www/agc_de/vicidial.php
+#	modified:   LANG_www/agc_de/voicemail_check.php
+#	modified:   LANG_www/agc_el/active_list_refresh.php
+#	modified:   LANG_www/agc_el/astguiclient.php
+#	modified:   LANG_www/agc_el/call_log_display.php
+#	modified:   LANG_www/agc_el/conf_exten_check.php
+#	modified:   LANG_www/agc_el/dbconnect.php
+#	modified:   LANG_www/agc_el/inbound_popup.php
+#	modified:   LANG_www/agc_el/live_exten_check.php
+#	modified:   LANG_www/agc_el/manager_send.php
+#	modified:   LANG_www/agc_el/park_calls_display.php
+#	modified:   LANG_www/agc_el/vdc_db_query.php
+#	modified:   LANG_www/agc_el/vicidial.php
+#	modified:   LANG_www/agc_el/voicemail_check.php
+#	modified:   LANG_www/agc_en/active_list_refresh.php
+#	modified:   LANG_www/agc_en/astguiclient.php
+#	modified:   LANG_www/agc_en/call_log_display.php
+#	modified:   LANG_www/agc_en/conf_exten_check.php
+#	modified:   LANG_www/agc_en/dbconnect.php
+#	modified:   LANG_www/agc_en/inbound_popup.php
+#	modified:   LANG_www/agc_en/live_exten_check.php
+#	modified:   LANG_www/agc_en/manager_send.php
+#	modified:   LANG_www/agc_en/park_calls_display.php
+#	modified:   LANG_www/agc_en/vdc_db_query.php
+#	modified:   LANG_www/agc_en/vicidial.php
+#	modified:   LANG_www/agc_en/voicemail_check.php
+#	modified:   LANG_www/agc_es/active_list_refresh.php
+#	modified:   LANG_www/agc_es/astguiclient.php
+#	modified:   LANG_www/agc_es/call_log_display.php
+#	modified:   LANG_www/agc_es/conf_exten_check.php
+#	modified:   LANG_www/agc_es/dbconnect.php
+#	modified:   LANG_www/agc_es/inbound_popup.php
+#	modified:   LANG_www/agc_es/live_exten_check.php
+#	modified:   LANG_www/agc_es/manager_send.php
+#	modified:   LANG_www/agc_es/park_calls_display.php
+#	modified:   LANG_www/agc_es/vdc_db_query.php
+#	modified:   LANG_www/agc_es/vicidial.php
+#	modified:   LANG_www/agc_es/voicemail_check.php
+#	modified:   LANG_www/agc_fr/active_list_refresh.php
+#	modified:   LANG_www/agc_fr/astguiclient.php
+#	modified:   LANG_www/agc_fr/call_log_display.php
+#	modified:   LANG_www/agc_fr/conf_exten_check.php
+#	modified:   LANG_www/agc_fr/dbconnect.php
+#	modified:   LANG_www/agc_fr/inbound_popup.php
+#	modified:   LANG_www/agc_fr/live_exten_check.php
+#	modified:   LANG_www/agc_fr/manager_send.php
+#	modified:   LANG_www/agc_fr/park_calls_display.php
+#	modified:   LANG_www/agc_fr/vdc_db_query.php
+#	modified:   LANG_www/agc_fr/vicidial.php
+#	modified:   LANG_www/agc_fr/voicemail_check.php
+#	modified:   LANG_www/agc_it/active_list_refresh.php
+#	modified:   LANG_www/agc_it/astguiclient.php
+#	modified:   LANG_www/agc_it/call_log_display.php
+#	modified:   LANG_www/agc_it/conf_exten_check.php
+#	modified:   LANG_www/agc_it/dbconnect.php
+#	modified:   LANG_www/agc_it/inbound_popup.php
+#	modified:   LANG_www/agc_it/live_exten_check.php
+#	modified:   LANG_www/agc_it/manager_send.php
+#	modified:   LANG_www/agc_it/park_calls_display.php
+#	modified:   LANG_www/agc_it/vdc_db_query.php
+#	modified:   LANG_www/agc_it/vicidial.php
+#	modified:   LANG_www/agc_it/voicemail_check.php
+#	deleted:    LANG_www/agc_pl/active_list_refresh.php
+#	deleted:    LANG_www/agc_pl/astguiclient.php
+#	deleted:    LANG_www/agc_pl/call_log_display.php
+#	deleted:    LANG_www/agc_pl/conf_exten_check.php
+#	deleted:    LANG_www/agc_pl/dbconnect.php
+#	deleted:    LANG_www/agc_pl/inbound_popup.php
+#	deleted:    LANG_www/agc_pl/live_exten_check.php
+#	deleted:    LANG_www/agc_pl/manager_send.php
+#	deleted:    LANG_www/agc_pl/park_calls_display.php
+#	deleted:    LANG_www/agc_pl/vdc_db_query.php
+#	deleted:    LANG_www/agc_pl/vicidial.php
+#	deleted:    LANG_www/agc_pl/voicemail_check.php
+#	modified:   LANG_www/agc_pt/active_list_refresh.php
+#	modified:   LANG_www/agc_pt/astguiclient.php
+#	modified:   LANG_www/agc_pt/call_log_display.php
+#	modified:   LANG_www/agc_pt/conf_exten_check.php
+#	modified:   LANG_www/agc_pt/dbconnect.php
+#	modified:   LANG_www/agc_pt/inbound_popup.php
+#	modified:   LANG_www/agc_pt/live_exten_check.php
+#	modified:   LANG_www/agc_pt/manager_send.php
+#	modified:   LANG_www/agc_pt/park_calls_display.php
+#	modified:   LANG_www/agc_pt/vdc_db_query.php
+#	modified:   LANG_www/agc_pt/vicidial.php
+#	modified:   LANG_www/agc_pt/voicemail_check.php
+#	modified:   LANG_www/astguiclient/admin.php
+#	modified:   LANG_www/astguiclient/dbconnect.php
+#	modified:   LANG_www/astguiclient_de/admin.php
+#	modified:   LANG_www/astguiclient_de/dbconnect.php
+#	modified:   LANG_www/astguiclient_el/admin.php
+#	modified:   LANG_www/astguiclient_el/dbconnect.php
+#	modified:   LANG_www/astguiclient_en/admin.php
+#	modified:   LANG_www/astguiclient_en/dbconnect.php
+#	modified:   LANG_www/astguiclient_en/phone_stats.php
+#	modified:   LANG_www/astguiclient_en/remote_inbound.php
+#	modified:   LANG_www/astguiclient_es/admin.php
+#	modified:   LANG_www/astguiclient_es/dbconnect.php
+#	modified:   LANG_www/vicidial/AST_timeonVDAD_closer.php
+#	modified:   LANG_www/vicidial/AST_timeonVDADall.php
+#	modified:   LANG_www/vicidial/AST_timeonVDADall_SIPmonitor.php
+#	modified:   LANG_www/vicidial/admin.php
+#	modified:   LANG_www/vicidial/dbconnect.php
+#	modified:   LANG_www/vicidial/listloader.php
+#	modified:   LANG_www/vicidial/listloader.pl
+#	modified:   LANG_www/vicidial/listloaderMAIN.php
+#	modified:   LANG_www/vicidial/listloader_rowdisplay.pl
+#	modified:   LANG_www/vicidial/listloader_super.pl
+#	modified:   LANG_www/vicidial/new_listloader_superL.php
+#	deleted:    LANG_www/vicidial/vtiger_search.php
+#	modified:   LANG_www/vicidial_de/AST_timeonVDAD_closer.php
+#	modified:   LANG_www/vicidial_de/AST_timeonVDADall.php
+#	modified:   LANG_www/vicidial_de/AST_timeonVDADall_SIPmonitor.php
+#	modified:   LANG_www/vicidial_de/admin.php
+#	modified:   LANG_www/vicidial_de/dbconnect.php
+#	modified:   LANG_www/vicidial_el/AST_timeonVDAD_closer.php
+#	modified:   LANG_www/vicidial_el/AST_timeonVDADall.php
+#	modified:   LANG_www/vicidial_el/admin.php
+#	modified:   LANG_www/vicidial_el/dbconnect.php
+#	modified:   LANG_www/vicidial_en/AST_timeonVDAD_closer.php
+#	modified:   LANG_www/vicidial_en/AST_timeonVDADall.php
+#	modified:   LANG_www/vicidial_en/AST_timeonVDADall_SIPmonitor.php
+#	modified:   LANG_www/vicidial_en/admin.php
+#	modified:   LANG_www/vicidial_en/dbconnect.php
+#	modified:   LANG_www/vicidial_en/listloader.php
+#	deleted:    LANG_www/vicidial_en/listloader.pl
+#	modified:   LANG_www/vicidial_en/listloaderMAIN.php
+#	deleted:    LANG_www/vicidial_en/listloader_rowdisplay.pl
+#	deleted:    LANG_www/vicidial_en/listloader_super.pl
+#	modified:   LANG_www/vicidial_en/new_listloader_superL.php
+#	deleted:    LANG_www/vicidial_en/vtiger_search.php
+#	modified:   LANG_www/vicidial_es/AST_timeonVDAD_closer.php
+#	modified:   LANG_www/vicidial_es/AST_timeonVDADall.php
+#	modified:   LANG_www/vicidial_es/AST_timeonVDADall_SIPmonitor.php
+#	modified:   LANG_www/vicidial_es/admin.php
+#	modified:   LANG_www/vicidial_es/dbconnect.php
+#	deleted:    UPGRADE
+#	modified:   agi/VD_amd.agi
+#	modified:   agi/VD_amd_post.agi
+#	modified:   agi/VD_hangup.agi
+#	modified:   agi/agi-VDAD_LB_closer.agi
+#	modified:   agi/agi-VDAD_LB_closer_inbound.agi
+#	modified:   agi/agi-VDAD_LB_transfer.agi
+#	modified:   agi/agi-VDAD_LO_closer.agi
+#	modified:   agi/agi-VDAD_LO_closer_inbound.agi
+#	modified:   agi/agi-VDAD_LO_transfer.agi
+#	deleted:    agi/agi-VDAD_pin_IVR.agi
+#	modified:   agi/agi-VDADautoREMINDER.agi
+#	modified:   agi/agi-VDADautoREMINDERxfer.agi
+#	modified:   agi/agi-VDADcloser.agi
+#	modified:   agi/agi-VDADcloser_PHONE.agi
+#	modified:   agi/agi-VDADcloser_inbound.agi
+#	modified:   agi/agi-VDADcloser_inboundANI.agi
+#	modified:   agi/agi-VDADcloser_inboundCID.agi
+#	modified:   agi/agi-VDADcloser_inboundCIDlookup.agi
+#	modified:   agi/agi-VDADcloser_inbound_5ID.agi
+#	modified:   agi/agi-VDADcloser_inbound_NOCID.agi
+#	deleted:    agi/agi-VDADfixCXFER.agi
+#	modified:   agi/agi-VDADlisten_DTMF.agi
+#	modified:   agi/agi-VDADtransfer.agi
+#	modified:   agi/agi-VDADtransferSURVEY.agi
+#	modified:   agi/agi-record_prompts.agi
+#	modified:   agi/call_inbound.agi
+#	modified:   agi/call_log.agi
+#	modified:   agi/call_logCID.agi
+#	modified:   agi/park_CID.agi
+#	modified:   bin/ADMIN_adjust_GMTnow_on_leads.pl
+#	modified:   bin/ADMIN_area_code_populate.pl
+#	deleted:    bin/ADMIN_keepalive_AST_VDadapt.pl
+#	modified:   bin/ADMIN_keepalive_AST_VDautodial.pl
+#	modified:   bin/ADMIN_keepalive_AST_VDremote_agents.pl
+#	modified:   bin/ADMIN_keepalive_AST_update.pl
+#	modified:   bin/ADMIN_restart_roll_logs.pl
+#	modified:   bin/AST_CRON_mix_recordings.pl
+#	modified:   bin/AST_CRON_mix_recordings_BASIC.pl
+#	modified:   bin/AST_CRON_mix_recordings_GSM.pl
+#	modified:   bin/AST_CRON_mix_recordings_MP3.pl
+#	deleted:    bin/AST_CRON_mix_recordings_MP3_DATE.pl
+#	modified:   bin/AST_DB_optimize.pl
+#	deleted:    bin/AST_VDadapt.pl
+#	modified:   bin/AST_VDauto_dial.pl
+#	modified:   bin/AST_VDhopper.pl
+#	modified:   bin/AST_VDremote_agents.pl
+#	modified:   bin/AST_manager_kill_hung_congested.pl
+#	modified:   bin/AST_manager_listen.pl
+#	modified:   bin/AST_manager_send.pl
+#	modified:   bin/AST_send_action_child.pl
+#	modified:   bin/AST_update.pl
+#	modified:   bin/VICIDIAL_IN_new_leads_file.pl
+#	modified:   bin/build_translation_www_files.pl
+#	modified:   bin/start_asterisk_boot.pl
+#	deleted:    docs/BASE_INSTALL.txt
+#	modified:   docs/LOAD_BALANCING.txt
+#	deleted:    docs/PREDICTIVE.txt
+#	modified:   docs/README.txt
+#	modified:   docs/REQUIREMENTS.txt
+#	modified:   docs/SCRATCH_INSTALL.txt
+#	modified:   docs/VICIDIAL.txt
+#	deleted:    docs/conf_examples/dnsmgr.conf.sample
+#	deleted:    docs/conf_examples/extensions.conf.sample
+#	deleted:    docs/conf_examples/iax.conf.sample
+#	deleted:    docs/conf_examples/logger.conf.sample
+#	deleted:    docs/conf_examples/manager.conf.sample
+#	deleted:    docs/conf_examples/meetme.conf.sample
+#	deleted:    docs/conf_examples/sip.conf.sample
+#	deleted:    docs/conf_examples/voicemail.conf.sample
+#	deleted:    docs/conf_examples/zapata.conf.t100p.sample
+#	deleted:    docs/conf_examples/zapata.conf.x100p.sample
+#	deleted:    docs/conf_examples/zaptel.conf.t100p.sample
+#	deleted:    docs/conf_examples/zaptel.conf.x100p.sample
+#	modified:   extras/MySQL_AST_CREATE_tables.sql
+#	deleted:    extras/Time/HiRes.1.55.pm
+#	deleted:    extras/upgrade_2.0.1.sql
+#	deleted:    install.pl
+#	modified:   translations/br_language.txt
+#	modified:   translations/de_language.txt
+#	modified:   translations/el_language.txt
+#	modified:   translations/es_language.txt
+#	modified:   translations/fr_language.txt
+#	modified:   translations/it_language.txt
+#	deleted:    translations/pl_language.txt
+#	deleted:    translations/pl_language_first.txt
+#	modified:   translations/pt_language.txt
+#	deleted:    translations/raw_translation_files/TO_BE_TRANSLATED_2.0.txt
+#	modified:   www/agc/astguiclient.php
+#	modified:   www/agc/dbconnect.php
+#	deleted:    www/agc/images/agc_live_call_OFF_pl.gif
+#	deleted:    www/agc/images/agc_live_call_ON_pl.gif
+#	deleted:    www/agc/images/pl.gif
+#	deleted:    www/agc/images/vdc_LB_hangupcustomer_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_hangupcustomer_pl.gif
+#	deleted:    www/agc/images/vdc_LB_parkcall_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_parkcall_pl.gif
+#	deleted:    www/agc/images/vdc_LB_pause_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_pause_pl.gif
+#	deleted:    www/agc/images/vdc_LB_resume_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_resume_pl.gif
+#	deleted:    www/agc/images/vdc_LB_startrecording_OFF_p.gif
+#	deleted:    www/agc/images/vdc_LB_startrecording_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_startrecording_pl.gif
+#	deleted:    www/agc/images/vdc_LB_stoprecording_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_stoprecording_pl.gif
+#	deleted:    www/agc/images/vdc_LB_transferconf_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_transferconf_pl.gif
+#	deleted:    www/agc/images/vdc_LB_webform_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_LB_webform_pl.gif
+#	deleted:    www/agc/images/vdc_XB_hotkeysactive_OFF_pl.gif
+#	deleted:    www/agc/images/vdc_XB_hotkeysactive_pl.gif
+#	modified:   www/agc/live_exten_check.php
+#	modified:   www/agc/manager_send.php
+#	modified:   www/agc/vdc_db_query.php
+#	modified:   www/agc/vicidial.php
+#	modified:   www/astguiclient/admin.php
+#	modified:   www/astguiclient/dbconnect.php
+#	modified:   www/vicidial/AST_timeonVDAD_closer.php
+#	modified:   www/vicidial/AST_timeonVDADall.php
+#	modified:   www/vicidial/AST_timeonVDADall_SIPmonitor.php
+#	modified:   www/vicidial/admin.php
+#	modified:   www/vicidial/dbconnect.php
+#	modified:   www/vicidial/listloader.php
+#	modified:   www/vicidial/listloader.pl
+#	modified:   www/vicidial/listloaderMAIN.php
+#	modified:   www/vicidial/listloader_rowdisplay.pl
+#	modified:   www/vicidial/listloader_super.pl
+#	modified:   www/vicidial/new_listloader_superL.php
+#	deleted:    www/vicidial/vtiger_search.php
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	LANG_www/agc/calendar.php
+#	LANG_www/agc/fix-dispo-list.patch
+#	LANG_www/vicidial_el/htglobalize.php
+#	Net-MySQL_bin-agi/
+#	agi/agi-CIDtest.agi
+#	agi/agi-VDADcloser_inboundCID-debug.agi
+#	agi/call_park.agi
+#	agi/call_park_EXT.agi
+#	agi/call_park_I.agi
+#	agi/call_park_L.agi
+#	agi/call_park_W.agi
+#	bin/AST_SERVER_conf.pl
+#	bin/install.pl
+#	docs/CONF_Asterisk.txt
+#	docs/CONF_MySQL.txt
+#	docs/CONF_VICIDIAL_MySQL.txt
+#	docs/TODO.txt
+#	docs/TODO_1.1.11.txt
+#	docs/TODO_1.1.12.txt
+#	extras/AST_VICI_conf.pl.bak
+#	extras/Asterisk/DONOTUSE_AST_VICI_conf.pl
+#	extras/Asterisk/buttons.gif
+#	extras/Asterisk/vm_indicator_anim.gif
+#	extras/Asterisk/voicemail_digits.gif
+#	extras/Asterisk/voicemail_new.gif
+#	extras/Asterisk/voicemail_old.gif
+#	extras/Asterisk/voicemail_up.gif
+#	extras/MySQL.pm
+#	extras/Net/HTTP.pm
+#	extras/Net/HTTPS.pm
+#	extras/Net/MySQL.pm
+#	extras/Net/SSH.pm
+#	extras/Time/HiRes.pm
+#	translations/raw_translation_files/TO_BE_TRANSLATED_admin_1.1.12_de.txt
+no changes added to commit (use "git add" and/or "git commit -a")
